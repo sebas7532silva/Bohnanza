@@ -95,7 +95,7 @@ def chatbot():
         
 
     # Inicializa la clave API de OpenAI (Recomendado: Usa una variable de entorno para más seguridad)
-    openai.api_key = "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"
+    openai.api_key = "api-key"
 
     # Función para hacer preguntas al modelo
     def ask_gpt3(question):
